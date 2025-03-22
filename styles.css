@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #e3f2fd, #bbdefb); 
+    color: #333;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: linear-gradient(135deg, #0056b3, #003f7f);
+    color: white;
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+section {
+    padding: 80px 20px 50px;
+    margin: 40px auto 20px;
+    width: 90%;
+    max-width: 900px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 160px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    margin: 15px 0;
+}
+
+#details {
+    background: linear-gradient(to right, #bbdefb, #64b5f6); 
+    color: white;
+}
+
+#skills {
+    background: linear-gradient(to right, #64b5f6, #1e88e5);
+    color: white;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px;
+}
+
+.skills-box {
+    background: #0d47a1;
+    color: white;
+    padding: 18px;
+    border-radius: 8px;
+    width: 45%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.skills-box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#achievements {
+    background: linear-gradient(to right, #e3f2fd, #bbdefb);
+}
+
+.achievements-list {
+    list-style: none;
+    padding: 10px;
+}
+
+.achievements-list li {
+    font-size: 1.1em;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #0d47a1;
+}
+
+#timeline {
+    background: linear-gradient(to right, #64b5f6, #1e88e5);
+    color: white;
+}
+
+.timeline-item {
+    background: #0d47a1;
+    color: white;
+    margin: 12px 0;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#connect {
+    background: #003f7f;
+    color: white;
+    padding: 30px 0;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+    margin: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.social-links a:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
